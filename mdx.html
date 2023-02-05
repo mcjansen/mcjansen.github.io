@@ -1,0 +1,9 @@
+<html>
+<script>
+  console.log("Hello world!");
+  var ip = "192.168.1.93";
+  var socket = new WebSocket('wss://' + ip + '/cmd');
+  socket.send("Z1VOL10;");
+</script>
+
+</html>
